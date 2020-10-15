@@ -9,6 +9,6 @@ app.get('/', (req, res)=>{
     res.sendFile('./src/index.html', {root : __dirname});
 });
 
-app.listen(4000, ()=>{
-    console.log('App listening on port 4000');
+app.listen(2500, ()=>{
+    console.log('App listening on port');
 });
